@@ -1,10 +1,12 @@
 header{
-    background:
+    background:linear-gradient(rgba(3, 75, 15, 0.404), transparent),
     url("https://yaretzi96.github.io/city/projects2/images/hierveagua.jpg");
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
       overflow: hidden;
+      padding: 10px;
+      color: rgb(19, 20, 20);
     }
 
 header{
@@ -42,23 +44,22 @@ animation:slideIn .5s linear;
      }
     
 
+#layout-carousel img{
+  display: block;
+}
 #layout-carousel .fade {
         opacity: 1;
         position: relative;
-        padding: 5px
+        padding: 5px;
+        
       }
      @media screen and (min-width: 992px) {
         #layout-float {
           margin: 50px 0 150px 0;
  }
 
- .container{
-   padding:15px right;
-   padding:15px left;
-   margin-right:auto;
-   margin-left:auto;
-
  }
+
 #layout-cards:hover {
           background: rgb(240, 240, 240);
  }
@@ -72,4 +73,5 @@ animation:slideIn .5s linear;
 
 footer{
    background: rgb(151, 10, 69);
-      }
+   text-justify: auto;
+  }
