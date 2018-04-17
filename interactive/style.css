@@ -29,8 +29,6 @@ animation:slideIn .5s linear;
   }
 }
 
-}
-
     @media screen and (max-width: 800px) {
       .site-header .navbar-collapse {
         padding:5px;
